@@ -1,0 +1,16 @@
+{
+  "editor.formatOnSave": true, // 优先使用 prettier-eslint
+
+  // eslint 插件配置部分
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "xmlTools.enforcePrettySelfClosingTagOnFormat": true,
+  "xmlTools.splitAttributesOnFormat": true,
+  "html.format.indentHandlebars": true,
+  "html.format.endWithNewline": true,
+  "html.format.indentInnerHtml": true,
+  "vetur.format.defaultFormatter.html": "none",
+  "svn.ignoreMissingSvnWarning": true,
+  "typescript.tsdk": "node_modules/typescript/lib" // 保存文件时自动修复错误，仅支持 files.autoSave: false。
+}
