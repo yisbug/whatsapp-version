@@ -1,25 +1,15 @@
 {
   "name": "whatsapp-version",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
-  "egg": {
-    "framework": "eggooo"
-  },
-  "scripts": {
-    "start": ""
-  },
   "keywords": [],
   "author": "",
+  "bin": {
+    "wsv": "./bin.js"
+  },
   "dependencies": {
     "app-info-parser": "^1.1.6",
-    "fast-xml-parser": "^4.3.5",
-    "fs-extra": "7.0.1",
-    "got": "11.8.5",
-    "moment": "2.29.4",
     "unzipper": "^0.12.2"
   },
   "devDependencies": {

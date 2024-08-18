@@ -1,6 +1,4 @@
 const AppInfoParser = require('app-info-parser');
-const zlib = require('zlib');
-const os = require('os');
 const unzipper = require('unzipper');
 const crypto = require('crypto');
 
@@ -26,7 +24,6 @@ module.exports = {
       .createHash('md5')
       .update(content)
       .digest('base64');
-    console.log('file', file);
 
     return {
       VERSION: version,
